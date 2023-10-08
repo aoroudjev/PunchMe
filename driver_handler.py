@@ -4,8 +4,7 @@ import os
 
 from win32com.client import Dispatch
 
-chrome_path = "C:\Program Files\Google\Chrome\Application\chrome.exe"
-
+chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 
 def get_version_via_com():
     parser = Dispatch("Scripting.FileSystemObject")
