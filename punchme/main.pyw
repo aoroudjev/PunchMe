@@ -100,7 +100,7 @@ def lunch_seq():
     punch_handler.clock(driver, 'OUT', credentials)
     update_status('YELLOW', 'WAITING 30 MINUTES...')
 
-    for i in range(2):
+    for i in range(3):
         time.sleep(10 * 60)
         update_status('YELLOW', f'WAITING {30 - (i * 10)} MINUTES...')
 
