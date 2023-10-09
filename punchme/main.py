@@ -59,7 +59,7 @@ def full_day_seq():
         check_login(driver)
         driver.quit()
     except:
-        update_status('RED', 'DRIVER START FAILED')
+        update_entry_state('normal')
         return
 
     if sequence_combobox.get() == 'Lunch Only':

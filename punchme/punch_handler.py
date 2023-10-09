@@ -45,5 +45,5 @@ def clock(driver, button_name, credentials):
     for button in clocking_buttons:
         if button.accessible_name == button_name:
             # Comment until ready for deployment
-            # button.click()
+            button.click()
             time.sleep(5)

@@ -2,7 +2,7 @@
 name = "punchme"
 version = "0.1.0"
 description = "Insperity auto-puncher"
-authors = ["Alexander Oroudjev a.oroudjev@gmail.com"]
+authors = ["Alexander Oroudjev <a.oroudjev@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
