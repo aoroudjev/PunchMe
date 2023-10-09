@@ -1,3 +1,3 @@
 # PunchME
-Automatic lunch puncher for Insperity
+Automatic time puncher for Insperity
 
